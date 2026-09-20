@@ -1,0 +1,6 @@
+Encoding Method: angle
+K_train shape: (160, 160)
+K_test shape: (40, 160)
+Diagonal approximately 1 verified: True
+K_train symmetric verified: True
+Runtime (seconds): 8.5825

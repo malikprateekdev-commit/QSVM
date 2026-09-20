@@ -1,0 +1,8 @@
+{
+    "input_dimension": 16,
+    "qubits": 4,
+    "encoding_gate": "StatePrep (Amplitude Encoding)",
+    "normalization": "L2 sample-wise normalization prior to encoding",
+    "magnitude_retention": "NOTICE: Normalization explicitly removes the original overall magnitude/norm, preserving only the relative normalized direction/proportions of the features.",
+    "zero_norm_handling": "Explicitly creates a uniform superposition state [1/sqrt(16), ...] to circumvent NaNs"
+}

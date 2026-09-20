@@ -1,0 +1,6 @@
+Metric,Value
+Accuracy,0.8
+Precision,0.75
+Recall,0.75
+F1-Score,0.75
+Encoding,amplitude

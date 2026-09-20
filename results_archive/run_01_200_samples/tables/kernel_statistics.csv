@@ -1,0 +1,5 @@
+Method,Mean_OffDiag,Std_OffDiag,Min_OffDiag,Max_OffDiag,Mean_SameClass,Mean_DiffClass
+basis,0.001022,0.031953,0.0,1.0,0.001967,0.0
+angle,0.029589,0.094684,0.0,1.0,0.038542,0.019907
+amplitude,0.090752,0.132795,0.0,1.0,0.104486,0.075899
+phase,0.029589,0.094684,0.0,1.0,0.038542,0.019907

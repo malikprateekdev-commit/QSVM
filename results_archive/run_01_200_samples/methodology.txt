@@ -1,0 +1,25 @@
+Title: Classical-to-Quantum Representation Methodology
+
+1. Data Sourcing & Scoping
+- Dataset: UCI Spambase (57 original numerical features, Binary Classification).
+- Scope: Exactly 200 samples retrieved via strict stratified sampling to preserve the target distribution.
+- Split: Fixed 80% (160) Training / 20% (40) Testing allocation.
+
+2. Common Preprocessing
+- Applied StandardScaler strictly fitted on training data to prevent leakage.
+- Reduced feature space from 57 to precisely 16 continuous PCA components.
+- Cumulative explained variance of exactly 0.5933 was captured.
+
+3. Quantum Encodings & Manipulations
+- Basis Encoding (16 qubits): Applied representation-specific binarization (x >= 0 -> 1, x < 0 -> 0). Continuous magnitude no longer directly represented.
+- Angle Encoding (16 qubits): Feature values transformed into rotation parameters on the interval [0, pi] and embedded via independent RY gates.
+- Amplitude Encoding (4 qubits): Applied sample-wise L2 normalization. Overall vector magnitude explicitly removed.
+- Phase Encoding (16 qubits): Feature values represented through relative phase via sequential H -> RZ gates.
+
+4. Kernel Overlap Calculation
+- Calculated the exact squared absolute statevector inner product K(x,y) = |<phi(x)|phi(y)>|^2.
+- Measurements were mathematically resolved using the local PennyLane simulator.
+
+5. Downstream Optimization
+- Ingested deterministic quantum kernel matrices into an identical precomputed scikit-learn Support Vector Machine (C=1.0).
+- Predictions generated identically to the classical RBF baseline to ensure structural isolation of the encoding influence.

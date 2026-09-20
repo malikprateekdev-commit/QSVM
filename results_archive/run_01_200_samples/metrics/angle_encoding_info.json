@@ -1,0 +1,8 @@
+{
+    "input_dimension": 16,
+    "qubits": 16,
+    "encoding_gate": "RY",
+    "mapping_rule": "MinMaxScaler fitted ONLY on X_train to map numerical values deterministically to [0, pi]",
+    "entanglement_used": "no (no CNOTs)",
+    "data_reuploading": "no"
+}

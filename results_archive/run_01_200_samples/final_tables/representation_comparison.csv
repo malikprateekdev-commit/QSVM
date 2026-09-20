@@ -1,0 +1,5 @@
+Method,Change
+basis,binarization; continuous magnitude no longer directly represented
+angle,feature values transformed into rotation parameters
+amplitude,L2 normalization; overall vector magnitude removed
+phase,feature values represented through relative phase

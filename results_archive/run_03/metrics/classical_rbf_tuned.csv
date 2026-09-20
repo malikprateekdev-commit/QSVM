@@ -1,0 +1,11 @@
+Metric,Value
+Selected_C,10
+Selected_gamma,scale
+CV_Score,0.9263586956521739
+Test_Accuracy,0.9207383279044516
+Test_Precision,0.9050279329608939
+Test_Recall,0.8925619834710744
+Test_F1,0.8987517337031901
+Tuning_Runtime_s,16.06705379486084
+Training_Runtime_s,0.18823027610778809
+Prediction_Runtime_s,0.07349920272827148

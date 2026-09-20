@@ -1,0 +1,15 @@
+{
+    "total_samples": 4601,
+    "train_samples": 3680,
+    "test_samples": 921,
+    "random_state": 42,
+    "stratified": true,
+    "train_class_counts": {
+        "0": 2230,
+        "1": 1450
+    },
+    "test_class_counts": {
+        "0": 558,
+        "1": 363
+    }
+}

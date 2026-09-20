@@ -1,0 +1,244 @@
+{
+    "Metrics": [
+        {
+            "Method": "Classical_rbf",
+            "Qubits": 0,
+            "Accuracy": 0.9207383279044516,
+            "Precision": 0.9050279329608939,
+            "Recall": 0.8925619834710744,
+            "F1": 0.8987517337031901,
+            "Training_Runtime": 0.18823027610778809,
+            "Prediction_Runtime": 0.07349920272827148
+        },
+        {
+            "Method": "Basis",
+            "Qubits": 16,
+            "Accuracy": 0.8045602605863192,
+            "Precision": 0.9030837004405288,
+            "Recall": 0.5647382920110193,
+            "F1": 0.6949152542372882,
+            "Training_Runtime": 0.3258020877838135,
+            "Prediction_Runtime": 0.0341217517852783
+        },
+        {
+            "Method": "Angle",
+            "Qubits": 16,
+            "Accuracy": 0.9218241042345277,
+            "Precision": 0.9098591549295776,
+            "Recall": 0.8898071625344353,
+            "F1": 0.8997214484679665,
+            "Training_Runtime": 0.2173411846160888,
+            "Prediction_Runtime": 0.0191423892974853
+        },
+        {
+            "Method": "Amplitude",
+            "Qubits": 4,
+            "Accuracy": 0.8957654723127035,
+            "Precision": 0.871866295264624,
+            "Recall": 0.8622589531680441,
+            "F1": 0.8670360110803325,
+            "Training_Runtime": 1.0934715270996094,
+            "Prediction_Runtime": 0.0195610523223876
+        },
+        {
+            "Method": "Phase",
+            "Qubits": 16,
+            "Accuracy": 0.9218241042345277,
+            "Precision": 0.9098591549295776,
+            "Recall": 0.8898071625344353,
+            "F1": 0.8997214484679665,
+            "Training_Runtime": 0.1764097213745117,
+            "Prediction_Runtime": 0.0159752368927001
+        }
+    ],
+    "Encodings": [
+        {
+            "Method": "Basis",
+            "Input_Dimension": 16,
+            "Qubits": 16,
+            "Required_Transformation": "Basis Mapping",
+            "Kernel_Computation_Runtime_s": 0.9705431461334229
+        },
+        {
+            "Method": "Angle",
+            "Input_Dimension": 16,
+            "Qubits": 16,
+            "Required_Transformation": "Angle Mapping",
+            "Kernel_Computation_Runtime_s": 6.292541742324829
+        },
+        {
+            "Method": "Amplitude",
+            "Input_Dimension": 16,
+            "Qubits": 4,
+            "Required_Transformation": "Amplitude Mapping",
+            "Kernel_Computation_Runtime_s": 0.2663545608520508
+        },
+        {
+            "Method": "Phase",
+            "Input_Dimension": 16,
+            "Qubits": 16,
+            "Required_Transformation": "Phase Mapping",
+            "Kernel_Computation_Runtime_s": 6.112818241119385
+        }
+    ],
+    "PCA": [
+        {
+            "Component": 1,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.1182428283713784,
+            "Cumulative_Explained_Variance": 0.1182428283713784
+        },
+        {
+            "Component": 2,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.05733768340561611,
+            "Cumulative_Explained_Variance": 0.17558051177699452
+        },
+        {
+            "Component": 3,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.035398541076880695,
+            "Cumulative_Explained_Variance": 0.21097905285387522
+        },
+        {
+            "Component": 4,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.02794695860412867,
+            "Cumulative_Explained_Variance": 0.2389260114580039
+        },
+        {
+            "Component": 5,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.027121787239871534,
+            "Cumulative_Explained_Variance": 0.2660477986978754
+        },
+        {
+            "Component": 6,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.026149747215974534,
+            "Cumulative_Explained_Variance": 0.29219754591384994
+        },
+        {
+            "Component": 7,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.025204960076127086,
+            "Cumulative_Explained_Variance": 0.31740250598997705
+        },
+        {
+            "Component": 8,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.024064433088742686,
+            "Cumulative_Explained_Variance": 0.3414669390787197
+        },
+        {
+            "Component": 9,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.023076069428198197,
+            "Cumulative_Explained_Variance": 0.3645430085069179
+        },
+        {
+            "Component": 10,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.02231520086947605,
+            "Cumulative_Explained_Variance": 0.3868582093763939
+        },
+        {
+            "Component": 11,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.021118361057525428,
+            "Cumulative_Explained_Variance": 0.4079765704339193
+        },
+        {
+            "Component": 12,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.020313819637190117,
+            "Cumulative_Explained_Variance": 0.4282903900711095
+        },
+        {
+            "Component": 13,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.019594242389572355,
+            "Cumulative_Explained_Variance": 0.44788463246068183
+        },
+        {
+            "Component": 14,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.019286318657507524,
+            "Cumulative_Explained_Variance": 0.46717095111818935
+        },
+        {
+            "Component": 15,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.019146443291549867,
+            "Cumulative_Explained_Variance": 0.4863173944097392
+        },
+        {
+            "Component": 16,
+            "Original_Dimensions": 57,
+            "PCA_Dimensions": 16,
+            "Explained_Variance_Ratio": 0.018790372920723494,
+            "Cumulative_Explained_Variance": 0.5051077673304627
+        }
+    ],
+    "Kernel_Stats": [
+        {
+            "Method": "Basis",
+            "Mean": 0.002538250293582678,
+            "Std": 0.05031706765294075,
+            "Min": 0.0,
+            "Max": 1.0,
+            "Diag_Mean": 1.0,
+            "Same_Class_Sim": 0.004596206359565258,
+            "Diff_Class_Sim": 0.00028668626327998936,
+            "Computation_Runtime_s": 0.9705431461334229
+        },
+        {
+            "Method": "Angle",
+            "Mean": 0.8177204728126526,
+            "Std": 0.18904992938041687,
+            "Min": 3.874085786410962e-40,
+            "Max": 1.0,
+            "Diag_Mean": 1.0,
+            "Same_Class_Sim": 0.8263565301895142,
+            "Diff_Class_Sim": 0.8082720041275024,
+            "Computation_Runtime_s": 6.292541742324829
+        },
+        {
+            "Method": "Amplitude",
+            "Mean": 0.09978317469358444,
+            "Std": 0.14103692770004272,
+            "Min": 9.340227565988665e-14,
+            "Max": 1.0,
+            "Diag_Mean": 1.0,
+            "Same_Class_Sim": 0.11376780271530151,
+            "Diff_Class_Sim": 0.08448289334774017,
+            "Computation_Runtime_s": 0.2663545608520508
+        },
+        {
+            "Method": "Phase",
+            "Mean": 0.8177204728126526,
+            "Std": 0.18904992938041687,
+            "Min": 3.874085786410962e-40,
+            "Max": 1.0,
+            "Diag_Mean": 1.0,
+            "Same_Class_Sim": 0.8263565301895142,
+            "Diff_Class_Sim": 0.8082720041275024,
+            "Computation_Runtime_s": 6.112818241119385
+        }
+    ]
+}

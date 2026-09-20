@@ -1,0 +1,20 @@
+Original dimensionality: 57
+Final dimensionality: 16
+Cumulative explained variance: 0.5933
+Explained variance ratio per component:
+  PC1: 0.1073
+  PC2: 0.0599
+  PC3: 0.0524
+  PC4: 0.0477
+  PC5: 0.0367
+  PC6: 0.0358
+  PC7: 0.0329
+  PC8: 0.0305
+  PC9: 0.0267
+  PC10: 0.0260
+  PC11: 0.0247
+  PC12: 0.0240
+  PC13: 0.0234
+  PC14: 0.0227
+  PC15: 0.0219
+  PC16: 0.0208

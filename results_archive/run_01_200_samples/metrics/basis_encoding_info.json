@@ -1,0 +1,6 @@
+{
+    "input_dimension": 16,
+    "qubits": 16,
+    "binarization_required": "yes",
+    "continuous_magnitude_retained": "no"
+}

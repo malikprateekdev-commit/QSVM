@@ -1,0 +1,2 @@
+Qubits,State_Dimension,Train_Angle_Min,Train_Angle_Max,Test_Angle_Min,Test_Angle_Max,Normalization_Value
+16,65536,0.0,3.1415926535897936,-0.02018263320332392,3.4845060704910846,1.0

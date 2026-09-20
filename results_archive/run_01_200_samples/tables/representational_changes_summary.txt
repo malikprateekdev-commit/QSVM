@@ -1,0 +1,18 @@
+
+=== TEXT SUMMARY OF REPRESENTATIONAL CHANGES ===
+
+Basis:
+- binarization
+- continuous magnitude no longer directly represented
+
+Angle:
+- feature values transformed into rotation parameters
+
+Amplitude:
+- L2 normalization
+- overall vector magnitude removed
+
+Phase:
+- feature values represented through relative phase
+
+Note: Higher overall similarity or accuracy does not automatically imply the representation is strictly 'better' in all theoretical contexts, but rather how its specific geometric structure interfaces with the SVM optimization objective.

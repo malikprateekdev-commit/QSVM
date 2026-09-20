@@ -1,0 +1,6 @@
+Metric,Value
+Accuracy,0.725
+Precision,0.7777777777777778
+Recall,0.4375
+F1-Score,0.56
+Encoding,angle

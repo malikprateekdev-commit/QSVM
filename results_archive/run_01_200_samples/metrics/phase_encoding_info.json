@@ -1,0 +1,12 @@
+{
+    "input_dimension": 16,
+    "qubits": 16,
+    "encoding_gates": [
+        "H",
+        "RZ"
+    ],
+    "mapping_rule": "MinMaxScaler fitted ONLY on X_train to map numerical values to [0, pi] (matching Angle encoding convention)",
+    "entanglement_used": "no (no CNOTs)",
+    "data_reuploading": "no",
+    "quantum_property_note": "Features are encoded strictly into the relative phase of the state. Because of the initial Hadamard superposition, immediate computational-basis probabilities (magnitude squared of amplitudes) are perfectly uniform and do not reveal the phase information."
+}

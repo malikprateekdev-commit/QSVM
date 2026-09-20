@@ -1,0 +1,6 @@
+Method,Representation,Qubits,Accuracy,Precision,Recall,F1-Score,Runtime_Seconds
+classical_rbf,Classical (Continuous),N/A,0.825,0.8461538461538461,0.6875,0.7586206896551724,N/A
+basis,Quantum (Basis),16,0.6,0.0,0.0,0.0,4.0911
+angle,Quantum (Angle),16,0.725,0.7777777777777778,0.4375,0.56,8.5825
+amplitude,Quantum (Amplitude),4,0.8,0.75,0.75,0.75,0.1943
+phase,Quantum (Phase),16,0.725,0.7777777777777778,0.4375,0.56,11.1463

@@ -1,0 +1,5 @@
+Method,Input_Dimension,Qubits,Required_Transformation,Kernel_Computation_Runtime_s
+Basis,16,16,Basis Mapping,0.9705431461334229
+Angle,16,16,Angle Mapping,6.292541742324829
+Amplitude,16,4,Amplitude Mapping,0.2663545608520508
+Phase,16,16,Phase Mapping,6.112818241119385

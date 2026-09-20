@@ -1,0 +1,70 @@
+=== DATA AUDIT REPORT ===
+Number of samples (rows): 4601
+Number of features (columns): 57
+Class labels: [0, 1]
+Class distribution: {0: 2788, 1: 1813}
+Missing values in features: 0
+Missing values in target: 0
+Duplicate rows: 391
+  Note: Duplicate rows are present and kept as-is (no silent dropping).
+Infinite values in features: 0
+Constant columns (no variance): 0
+
+=== FEATURE RANGES (Min -> Max) ===
+word_freq_make: 0.0 -> 4.54
+word_freq_address: 0.0 -> 14.28
+word_freq_all: 0.0 -> 5.1
+word_freq_3d: 0.0 -> 42.81
+word_freq_our: 0.0 -> 10.0
+word_freq_over: 0.0 -> 5.88
+word_freq_remove: 0.0 -> 7.27
+word_freq_internet: 0.0 -> 11.11
+word_freq_order: 0.0 -> 5.26
+word_freq_mail: 0.0 -> 18.18
+word_freq_receive: 0.0 -> 2.61
+word_freq_will: 0.0 -> 9.67
+word_freq_people: 0.0 -> 5.55
+word_freq_report: 0.0 -> 10.0
+word_freq_addresses: 0.0 -> 4.41
+word_freq_free: 0.0 -> 20.0
+word_freq_business: 0.0 -> 7.14
+word_freq_email: 0.0 -> 9.09
+word_freq_you: 0.0 -> 18.75
+word_freq_credit: 0.0 -> 18.18
+word_freq_your: 0.0 -> 11.11
+word_freq_font: 0.0 -> 17.1
+word_freq_000: 0.0 -> 5.45
+word_freq_money: 0.0 -> 12.5
+word_freq_hp: 0.0 -> 20.83
+word_freq_hpl: 0.0 -> 16.66
+word_freq_george: 0.0 -> 33.33
+word_freq_650: 0.0 -> 9.09
+word_freq_lab: 0.0 -> 14.28
+word_freq_labs: 0.0 -> 5.88
+word_freq_telnet: 0.0 -> 12.5
+word_freq_857: 0.0 -> 4.76
+word_freq_data: 0.0 -> 18.18
+word_freq_415: 0.0 -> 4.76
+word_freq_85: 0.0 -> 20.0
+word_freq_technology: 0.0 -> 7.69
+word_freq_1999: 0.0 -> 6.89
+word_freq_parts: 0.0 -> 8.33
+word_freq_pm: 0.0 -> 11.11
+word_freq_direct: 0.0 -> 4.76
+word_freq_cs: 0.0 -> 7.14
+word_freq_meeting: 0.0 -> 14.28
+word_freq_original: 0.0 -> 3.57
+word_freq_project: 0.0 -> 20.0
+word_freq_re: 0.0 -> 21.42
+word_freq_edu: 0.0 -> 22.05
+word_freq_table: 0.0 -> 2.17
+word_freq_conference: 0.0 -> 10.0
+char_freq_;: 0.0 -> 4.385
+char_freq_(: 0.0 -> 9.752
+char_freq_[: 0.0 -> 4.081
+char_freq_!: 0.0 -> 32.478
+char_freq_$: 0.0 -> 6.003
+char_freq_#: 0.0 -> 19.829
+capital_run_length_average: 1.0 -> 1102.5
+capital_run_length_longest: 1.0 -> 9989.0
+capital_run_length_total: 1.0 -> 15841.0

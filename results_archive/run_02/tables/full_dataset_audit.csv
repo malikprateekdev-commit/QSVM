@@ -1,0 +1,10 @@
+Metric,Value
+Total Records,4601
+Total Features,57
+Target Columns,1
+"Expected Classes (0, 1) Present",True
+Missing Values,0
+NaN Values,0
+Infinite Values,0
+Duplicate Rows,391
+Constant Features,0

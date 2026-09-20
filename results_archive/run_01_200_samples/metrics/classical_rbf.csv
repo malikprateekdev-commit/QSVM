@@ -1,0 +1,9 @@
+Metric,Value
+Accuracy,0.825
+Precision,0.8461538461538461
+Recall,0.6875
+F1-Score,0.7586206896551724
+Original Features,57.0
+PCA Components,16.0
+Train Samples,160.0
+Test Samples,40.0
